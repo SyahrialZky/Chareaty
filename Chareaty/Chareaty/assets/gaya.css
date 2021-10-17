@@ -1,0 +1,156 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d1e2e9;
+    overflow: hidden;
+}
+
+.header .hero-img {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(25%, -50%);
+}
+
+.hero-content h2 {
+    color: #545454;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-content h5 {
+    color: #222;
+    font-size: 20px;
+    font-weight: lighter;
+    display: block;
+    line-height: 150%;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.about {
+    margin-top: 30px;
+
+}
+
+.about h1 {
+    text-align: center;
+
+}
+
+.about h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -30px;
+
+}
+
+.service {
+    margin-top: 30px;
+
+
+}
+
+.service h1 {
+    text-align: center;
+
+}
+
+.service h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.section-service {
+    margin-top: 20px;
+    padding: auto;
+
+}
+
+.card-box {
+    position: relative;
+    height: 27rem;
+    padding: 1.6rem;
+    overflow: hidden;
+    width: 30%;
+    display: inline-block;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+    align-content: center;
+    left: 40px;
+    margin: 10px;
+    padding-top: 5rem;
+}
+
+.card-content {
+    padding: auto;
+    text-align: center;
+
+}
+
+.card-content h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-content h4 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.card-box:hover {
+
+    transform: scale(1.03);
+    transition: transform .35s;
+}
+
+.banner-content {
+    margin-top: 3rem;
+}
+
+.content {
+    margin-top: 5rem;
+    background-color: #e7f7fe;
+    display: inline-block;
+    width: 75%;
+    padding-top: 8.5rem;
+    padding-bottom: 8.5rem;
+}
+
+.banner-content .container {
+    margin-left: 6rem;
+}
+
+.banner-content .image {
+    display: inline-block;
+    width: 20%;
+    right: 40px;
+}
